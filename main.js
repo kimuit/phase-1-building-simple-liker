@@ -4,6 +4,8 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+const errorModel = document.getElementById("modal");
+errorModel.classList.add("hidden");
 
 let click = []
 document.addEventListener('DOMContentLoaded',()=>{
